@@ -22,5 +22,3 @@
 	// END RESPONSIVE CONTROL
 	});	
 })( jQuery );
-
-var $ = jQuery.noConflict();

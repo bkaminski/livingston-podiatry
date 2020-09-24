@@ -1,12 +1,14 @@
-@media (min-width: 768px) {
-.navbar-brand
-    {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
 .navbar-nav a {
 	color: #222;
-	margin-right: 10px;
+	margin-right: 0px;
 }
+.nav-item {
+	font-size: 1rem;
+	@include breakpoint (sm) {
+		font-size: 0.6rem;
+	}
+	@include breakpoint (md) {
+		font-size: 1rem;
+	}
+}
+

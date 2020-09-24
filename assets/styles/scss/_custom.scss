@@ -5,7 +5,27 @@
 	padding-top: 0.6rem;
 }
 .home-hero {
+	text-shadow: 3px 3px #fff;
+	position: relative;
 	min-height: 500px;
 	width: 100%;
 	background-color: #ccc;
+	background-image: url('../../../../uploads/2020/09/DSC_4781F-scaled.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 25%;
+}
+.about-livingston {
+	width: 100%;
+	min-height: 200px;
+	background: #d0e6ff;
+}
+.tagline {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 15px;
+	right: 0;
+	margin-right: 15px;
+	float: right;
+	text-shadow: 3px 3px #000;
 }
