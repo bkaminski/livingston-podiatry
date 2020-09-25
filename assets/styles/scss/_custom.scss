@@ -10,7 +10,7 @@
 	min-height: 500px;
 	width: 100%;
 	background-color: #ccc;
-	background-image: url('../../../../uploads/2020/09/DSC_4781F-scaled.jpg');
+	background-image: url('../../../../uploads/2020/09/livingston-front-scaled.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 25%;
@@ -28,4 +28,39 @@
 	margin-right: 15px;
 	float: right;
 	text-shadow: 3px 3px #000;
+}
+.injured {
+	min-height: 200px;
+	background-color: #fff;
+	width: 100%;
+}
+.below-knee {
+	font-size: 3.3rem;
+	color: #facd62;
+}
+.btn-blue {
+	background: #d0e6ff;
+}
+.choice {
+	width: 100%;
+	min-height: 200px;
+	background: #b0b0b0;
+	background-image: url('../../../../uploads/2020/09/ankle.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+.office {
+	width: 100%;
+	min-height: 200px;
+	background: #d0e6ff;
+}
+.whats-new {
+	background: #fff;
+	padding: 55px;
+}
+.footer {
+	background: #fff;
+	width: 100%;
+	min-height: 200px;
 }

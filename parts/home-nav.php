@@ -5,7 +5,7 @@
 		</p>
 	</div>
 </div>
-<nav class="navbar sticky-top navbar-expand-md" style="min-height: 130px;margin-top:10px;">
+<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light" style="min-height:130px;">
 	 <a class="navbar-brand d-block d-md-none" href="<?php echo get_home_url(); ?>">
 	 	<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/09/Livingston_logocolor.jpg' ) . '" class="img-fluid nav--logo" alt="Livingston Podiatry Logo" width="200px">';?>
 	 </a>
