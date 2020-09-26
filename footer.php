@@ -4,7 +4,8 @@
 			<div class="col-md-4">
 				<p>Livingston Podiatry Associates<br />
 				2307 Bellmore Ave<br />
-				Bellmore, NY 11710</p>
+				Bellmore, NY 11710<br />
+				516-308-4500</p>
 
 			</div>
 			<div class="col-md-4 pt-4">
@@ -14,21 +15,22 @@
   					<li class="list-inline-item"><i class="fab fa-twitter fa-2x"></i></li>
 				</ul>
 			</div>
-			<div class="col-md-4">
-				<p class="text-right">516-308-4500<br />
-				Patient Testimonials<br />
-				Download Forms</p>
+			<div class="col-md-4 footer--right">
+				<p class="text-right">Patient Testimonials<br />
+				Download Forms<br />
+				Insurance We Accept<br />
+			    Privacy Policy</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-3">
-				<p>Insurance We Accept</p>
+				<p>Contact Us</p>
 			</div>
 			<div class="col-md-6">
-				<p class="text-center"><strong>&copy; Livingston Podiatry Associates</strong>  |  Privacy Policy  |  Site Map</p>
+				<p class="text-center"><strong>&copy;<?php echo date('Y');?> Livingston Podiatry Associates</strong></p>
 			</div>
-			<div class="col-md-3">
-				<p class="text-right">Contact Us</p>
+			<div class="col-md-3 footer--right">
+				<p class="text-right">Site Map</p>
 			</div>
 		</div>
 	</div>
