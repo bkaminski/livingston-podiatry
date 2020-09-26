@@ -10,7 +10,7 @@
 	min-height: 500px;
 	width: 100%;
 	background-color: #ccc;
-	background-image: url('../../../../uploads/2020/09/livingston-front-scaled.jpg');
+	background-image: url('../../../../uploads/2020/09/livingston-front-scaled-1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 25%;
@@ -63,4 +63,25 @@
 	background: #fff;
 	width: 100%;
 	min-height: 200px;
+}
+.main-nav {
+	margin-top: 10px;
+	@include breakpoint (sm) {
+		margin-top: 80px;
+	}
+	@include breakpoint (md) {
+		margin-top: 80px;
+	}
+}
+.nav--logo {
+	margin-top: 10px;
+	@include breakpoint (sm) {
+		margin-top: 40px;
+	}
+	@include breakpoint (md) {
+		margin-top: 0px;
+	}
+	@include breakpoint (lg) {
+		margin-top: 2px;
+	}
 }

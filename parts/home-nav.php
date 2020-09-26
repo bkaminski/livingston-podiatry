@@ -5,7 +5,7 @@
 		</p>
 	</div>
 </div>
-<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light" style="min-height:130px;">
+<nav class="navbar sticky-top navbar-expand-md navbar-light" style="min-height:130px;background:#fff;">
 	 <a class="navbar-brand d-block d-md-none" href="<?php echo get_home_url(); ?>">
 	 	<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/09/Livingston_logocolor.jpg' ) . '" class="img-fluid nav--logo" alt="Livingston Podiatry Logo" width="200px">';?>
 	 </a>
@@ -15,13 +15,13 @@
 		<div class="navbar-collapse collapse justify-content-md-center" id="livingstonNav">
 	        <ul class="nav navbar-nav">
 	            <li class="nav-item">
-	                <a class="nav-link text-uppercase" href="#">About</a>
+	                <a class="nav-link text-uppercase main-nav" href="#">About</a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link text-uppercase" href="#">Our Specialists</a>
+	                <a class="nav-link text-uppercase main-nav" href="#">Our Specialists</a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link text-uppercase" href="#">Patient Service</a>
+	                <a class="nav-link text-uppercase main-nav" href="#">Patient Service</a>
 	            </li>
 	            <li class="nav-item d-none d-md-block">
 	                <a href="<?php echo get_home_url(); ?>">
@@ -30,13 +30,13 @@
 	                </a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link text-uppercase" href="#">Contact</a>
+	                <a class="nav-link text-uppercase main-nav" href="#">Contact</a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link text-uppercase" href="#">Faq</a>
+	                <a class="nav-link text-uppercase main-nav" href="#">Faq</a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link text-uppercase" href="#">Common Conditions</a>
+	                <a class="nav-link text-uppercase main-nav" href="#">Common Conditions</a>
 	            </li>
 	        </ul>
 	    </div>
