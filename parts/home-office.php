@@ -5,15 +5,14 @@
 				<h3 style="font-size:2rem;font-weight:bold;">Dr. Livingston Bellmore, NY</h3>
 				<p>Your Neighborhood Foot Doctor Servicing:</p>
 					<ul>
-						<li>Bellmor</li>
+						<li>Bellmore</li>
 						<li>Wantagh</li>
 						<li>Merrick</li>
 						<li>East Meadow</li>
 					</ul>
 				<br />
 				<h3 style="font-size:2rem;font-weight:bold;">Podiatrist Office Hours</h3>
-				<p>Monday - Friday: 8:00am - 7:00pm<br />
-				   Saturday: 8:00am - 2:00pm</p>
+				<p><?php the_field('office_hours'); ?></p>
 			</div>
 			<div class="col-md-6">
 				<div class="whats-new">

@@ -2,7 +2,7 @@
 	<div class="container pt-5 pb-5">
 		<div class="row">
 			<div class="col-md-4">
-				<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/09/DSC_3902-scaled.jpg' ) . '" class="img-fluid pb-5" alt="Dr. Michael Livingston Podiatry">';?>
+				<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/09/DSC_3902-scaled-1.jpg' ) . '" class="img-fluid pb-5" alt="Dr. Michael Livingston Podiatry">';?>
 
 				<div class="embed-responsive embed-responsive-16by9">
 					<iframe class="embed-responsive-item pb-3" src="https://www.youtube.com/embed/4T_ErCUoyKQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
