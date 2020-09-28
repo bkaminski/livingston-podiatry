@@ -9,9 +9,14 @@
 
 			</div>
 			<div class="col-md-4 pt-4">
-				<ul class="list-inline text-center">
-  					<li class="list-inline-item mr-5"><i class="fab fa-facebook fa-2x mr-5"></i></li>
-  					<li class="list-inline-item mr-5"><i class="fab fa-youtube fa-2x mr-5"></i></li>
+				<ul class="list-inline foot--social text-center d-none d-lg-block">
+  					<li class="list-inline-item"><i class="fab fa-facebook fa-2x mr-5"></i></li>
+  					<li class="list-inline-item"><i class="fab fa-youtube fa-2x mr-5"></i></li>
+  					<li class="list-inline-item"><i class="fab fa-twitter fa-2x"></i></li>
+				</ul>
+				<ul class="list-inline foot--social text-center d-block d-lg-none">
+  					<li class="list-inline-item"><i class="fab fa-facebook fa-2x mr-3"></i></li>
+  					<li class="list-inline-item"><i class="fab fa-youtube fa-2x mr-3"></i></li>
   					<li class="list-inline-item"><i class="fab fa-twitter fa-2x"></i></li>
 				</ul>
 			</div>

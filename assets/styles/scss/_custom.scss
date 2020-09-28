@@ -48,6 +48,10 @@
 }
 .btn-blue {
 	background: #d0e6ff;
+	transition: 0.4s ease-in-out;
+	&:hover {
+		background: #add3ff;
+	}
 }
 .choice {
 	width: 100%;
@@ -93,7 +97,7 @@
 	}
 }
 .nav--logo {
-	margin-top: -15px;
+	margin-top: 2px;
 	@include breakpoint (sm) {
 		margin-top: 10px;
 	}
