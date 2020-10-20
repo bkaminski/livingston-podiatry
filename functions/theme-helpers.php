@@ -77,10 +77,7 @@ function excerpt_read_more_link($output)
 add_filter('the_excerpt', 'excerpt_read_more_link');
 //REMOVE COMMENTS FEED RSS
 add_filter( 'feed_links_show_comments_feed', '__return_false' );
-//REMOVE JSON API
-remove_action( 'wp_head', 'rest_output_link_wp_head');
-remove_action( 'wp_head', 'wp_oembed_add_discovery_links');
-remove_action( 'template_redirect', 'rest_output_link_header', 11);
+
 //REMOVE WP VERSION FROM CODE
 function intSound_remove_version() {
 return '';
@@ -92,5 +89,15 @@ if (defined('WPSEO_VERSION')) {
  return preg_replace('/^\n?<!--.*?[Y]oast.*?-->\n?$/mi','',$o);
  }); },~PHP_INT_MAX);
 }
-//AUTO UPDATE PLUGINS
-add_filter( 'auto_update_plugin', '__return_true' );
+
+if( function_exists('acf_add_options_page') ) {
+    
+    acf_add_options_page(array(
+        'page_title'    => 'Global Theme Settings',
+        'menu_title'    => 'Global Settings',
+        'menu_slug'     => 'livingston-general-settings',
+        'capability'    => 'edit_posts',
+        'redirect'      => false
+    ));
+    
+}

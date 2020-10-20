@@ -1,3 +1,6 @@
+a {
+	outline: none;
+}
 .important-message {
 	width: 100%;
 	min-height: 50px;
@@ -5,7 +8,7 @@
 	padding-top: 0.6rem;
 }
 .home-hero {
-	text-shadow: 3px 3px #fff;
+	text-shadow: 1px 1px #fff;
 	position: relative;
 	min-height: 500px;
 	width: 100%;
@@ -106,5 +109,23 @@
 	}
 	@include breakpoint (lg) {
 		margin-top: 2px;
+	}
+}
+.page-title {
+	border-bottom: 3px solid #cb655e;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+.pg-feat-img {
+	width: 100%;
+	min-height: 155px;
+	display: block;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center center;
+	@include breakpoint (sm) {
+		background-size: cover;
+		min-height: 400px;
 	}
 }

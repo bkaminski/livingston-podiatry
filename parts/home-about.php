@@ -16,7 +16,7 @@
 				<p>Fellowship trained in diabetic limb salvage and reconstructive plastic surgery of the foot and leg from Georgetown University Medical Center, <strong>Dr. Livingston is a leader in the use of advanced technology and biologics to improve patient outcomes.</strong></p>
 				<p>Dr Livingston has been in private practice and has maintained academic positions for the last <strong>20 years.</strong> His practice, <strong>Livingston Podiatry Associates</strong>, is the preeminent podiatric practice in Nassau County. <strong>As a respected member of the health care community</strong>, he and the team members of Livingston Podiatry Associates work in conjunction with many of the <strong>best doctors in the area</strong> to provide a multidisciplinary team approach to patient care. <strong>This aides greatly in producing the best possible outcomes for our patients.</strong></p>
 				<div class="pt-3 text-center">
-					<button class="btn btn-lg btn-light pr-5 pl-5 text-uppercase font-weight-bold">About</button>
+					<a href="<?php echo get_home_url(); ?>/about-us" class="btn btn-lg btn-light pr-5 pl-5 text-uppercase font-weight-bold">About</a>
 				</div>
 			</div>
 		</div>

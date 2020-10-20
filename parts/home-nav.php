@@ -1,7 +1,7 @@
 <div class="important-message">
 	<div class="container">
 		<p class="text-center text-white font-weight-bold">
-			<?php echo the_field('important_message'); ?>
+			<?php echo the_field('important_message', 'option'); ?>
 		</p>
 	</div>
 </div>
@@ -15,13 +15,13 @@
 		<div class="navbar-collapse collapse justify-content-md-center" id="livingstonNav">
 	        <ul class="nav navbar-nav">
 	            <li class="nav-item">
-	                <a class="nav-link text-uppercase main-nav" href="#">About</a>
+	                <a class="nav-link text-uppercase main-nav" href="<?php echo get_home_url(); ?>/about-us">About</a>
 	            </li>
 	            <li class="nav-item">
 	                <a class="nav-link text-uppercase main-nav" href="#">Our Specialists</a>
 	            </li>
 	            <li class="nav-item">
-	                <a class="nav-link text-uppercase main-nav" href="#">Patient Service</a>
+	                <a class="nav-link text-uppercase main-nav" href="#">Patient Services</a>
 	            </li>
 	            <li class="nav-item d-none d-md-block">
 	                <a href="<?php echo get_home_url(); ?>">
@@ -35,8 +35,31 @@
 	            <li class="nav-item">
 	                <a class="nav-link text-uppercase main-nav" href="#">Faq</a>
 	            </li>
-	            <li class="nav-item">
-	                <a class="nav-link text-uppercase main-nav" href="#">Common Conditions</a>
+	            <li class="nav-item dropdown">
+	                <a class="nav-link dropdown-toggle text-uppercase main-nav" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Common Conditions</a>
+	                	<div class="dropdown-menu dropdown-menu-right" aria-labelledby="servicesDropdown">
+	                		<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions">Common Foot Conditions</a>
+          					<a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Achilles Tendinitis</a>
+          					<a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Ankle Arthroscopy</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Ankle Dislocation</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Ankle Fractures</a>
+          					<a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Ankle Sprains</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Athletes Foot</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Bunion Deformity</a>
+          					<a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Custom Made Foot Orthoses</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Diabetic Foot Care</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">ESWT</a>
+          					<a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Flatfoot Deformity</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Forefoot Surgery</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Hammertoes</a>
+          					<a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Heel Pain</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Ingrown Fungus Nails</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Laser Therapy for Nail Fungus</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Neuromas</a>
+          					<a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Plantar Fasciitis</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Rearfoot Surgery</a>
+         	 			    <a class="dropdown-item" href="<?php echo get_home_url(); ?>/">Warts</a>
+        				</div>
 	            </li>
 	        </ul>
 	    </div>

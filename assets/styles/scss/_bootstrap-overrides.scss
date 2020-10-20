@@ -21,3 +21,11 @@
 		font-size: 1rem;
 	}
 }
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #cb655e;
+    border-color: #cb655e;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
