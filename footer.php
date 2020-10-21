@@ -21,21 +21,19 @@
 				</ul>
 			</div>
 			<div class="col-md-4 footer--right">
-				<p class="text-right">Patient Testimonials<br />
-				Download Forms<br />
-				Insurance We Accept<br />
-			    Privacy Policy</p>
+				<p class="text-right"><a href="<?php echo get_home_url(); ?>/patient-testimonials">Patient Testimonials</a><br />
+				<a href="<?php echo get_home_url(); ?>/patient-forms">Download Forms</a><br />
+				<a href="<?php echo get_home_url(); ?>/insurance">Insurance We Accept</a><br />
+			    <a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-3">
-				<p><a href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></p>
-			</div>
+			<div class="col-md-3"></div>
 			<div class="col-md-6">
 				<p class="text-center"><strong>&copy;<?php echo date('Y');?> Livingston Podiatry Associates</strong></p>
 			</div>
 			<div class="col-md-3 footer--right">
-				<p class="text-right">Site Map</p>
+				<p><a href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></p>
 			</div>
 		</div>
 	</div>

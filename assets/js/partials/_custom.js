@@ -13,6 +13,27 @@
 		  if(/surgical-specialist/.test(loc)) {
 		    $('.surgical--specialist').addClass('active');
 		  }
+		  if(/request-information/.test(loc)) {
+		    $('.request--information').addClass('active');
+		  }
+		  if(/insurance/.test(loc)) {
+		    $('.livingston--insurance').addClass('active');
+		  }
+		  if(/senior-care/.test(loc)) {
+		    $('.senior--care').addClass('active');
+		  }
+		  if(/patient-forms/.test(loc)) {
+		    $('.patient--forms').addClass('active');
+		  }
+		  if(/patient-testimonials/.test(loc)) {
+		    $('.patient--testimonials').addClass('active');
+		  }
+		  if(/helpful-links/.test(loc)) {
+		    $('.helpful--links').addClass('active');
+		  }
+		  if(/our-facility/.test(loc)) {
+		    $('.our--facility').addClass('active');
+		  }
 		});
 
 		//Animate slide up and down nav dropdowns.

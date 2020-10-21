@@ -58,13 +58,13 @@
 	            </figure>
 	        </li>
 	        <li class="nav-item">
-	        	<a class="nav-link text-uppercase main-nav" href="#">Patient Services</a>
+	        	<a class="nav-link text-uppercase main-nav" href="<?php echo get_home_url(); ?>/patient-services">Patient Services</a>
 	        </li>
 	        <li class="nav-item">
-	        	<a class="nav-link text-uppercase main-nav" href="#">Our Specialists</a>
+	        	<a class="nav-link text-uppercase main-nav" href="<?php echo get_home_url(); ?>/our-specialists">Our Specialists</a>
 	        </li>
 	        <li class="nav-item">
-	        	<a class="nav-link text-uppercase main-nav" href="#">Faq</a>
+	        	<a class="nav-link text-uppercase main-nav" href="<?php echo get_home_url(); ?>/frequently-asked-questions">Faq</a>
 	        </li>
 	    </ul>
 	</div>
