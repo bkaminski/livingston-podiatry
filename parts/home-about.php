@@ -10,7 +10,7 @@
 					
 			</div>
 			<div class="col-md-8">
-				<h2 class="text-white font-weight-bold">Why Choose Livingston Podiatry?</h2>
+				<h2 class="text-white font-weight-bold" style="text-shadow: 1px 2px #000;">Why Choose Livingston Podiatry?</h2>
 				<p class="font-weight-bold">Dr. Michael Livingston is one of the most highly trained podiatrists in the state of New York.</p>
 				<p>Board certified in both <strong>foot surgery</strong> and <strong>reconstructive rear-foot and ankle surgery</strong>, Dr. Livingston is one of an elite few podiatrists that have been granted the privilege to <strong>treat all conditions of the foot, ankle and leg in New York State.</strong> In addition to his private practice, <strong>Dr. Livingston is the Chairman of the Department of Podiatry</strong> at Northwell Health at Syosset, as well as their on-site residency director for Advanced Foot and Ankle Surgery</p>
 				<p>Fellowship trained in diabetic limb salvage and reconstructive plastic surgery of the foot and leg from Georgetown University Medical Center, <strong>Dr. Livingston is a leader in the use of advanced technology and biologics to improve patient outcomes.</strong></p>

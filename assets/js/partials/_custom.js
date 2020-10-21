@@ -4,9 +4,6 @@
 		//About us side menu active state
 		$(function() {
 		  var loc = window.location.href; // returns the full URL
-		  if(/about-us/.test(loc)) {
-		    $('.about--us').addClass('active');
-		  }
 		  if(/board-certified/.test(loc)) {
 		    $('.board--certified').addClass('active');
 		  }

@@ -13,7 +13,7 @@ a {
 	min-height: 500px;
 	width: 100%;
 	background-color: #ccc;
-	background-image: url('../../../../uploads/2020/09/livingston-front-scaled-1.jpg');
+	background-image: url('../../../../uploads/2020/10/livingston-front.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 25%;
@@ -126,6 +126,6 @@ a {
 	background-position: center center;
 	@include breakpoint (sm) {
 		background-size: cover;
-		min-height: 400px;
+		min-height: 500px;
 	}
 }

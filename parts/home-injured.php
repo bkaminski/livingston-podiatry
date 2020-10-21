@@ -12,7 +12,7 @@
 				<button class="btn btn-lg btn-blue btn-block text-uppercase font-weight-bold">Download Forms</button>
 			</div>
 			<div class="col-md-4 pb-3">
-				<button class="btn btn-lg btn-blue btn-block text-uppercase font-weight-bold">Contact Us</button>
+				<a href="<?php echo get_home_url(); ?>/contact-us" class="btn btn-lg btn-blue btn-block text-uppercase font-weight-bold">Contact Us</a>
 			</div>
 		</div>
 	</div>

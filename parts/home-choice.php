@@ -6,7 +6,7 @@
 				<p class="text-white"><?php the_field('accolades'); ?></p>
 				<p class="pt-5 pb-3">Relief from your injuries are just a call away<br />
 				<span class="text-white">Give our office a call, or submit a form on our contact us page.</span></p>
-				<button class="btn btn-lg btn-light pr-5 pl-5 text-uppercase font-weight-bold">Contact Us</button>
+				<a href="<?php echo get_home_url(); ?>/contact-us" class="btn btn-lg btn-light pr-5 pl-5 text-uppercase font-weight-bold">Contact Us</a>
 			</div>
 			<div class="col-md-3">
 

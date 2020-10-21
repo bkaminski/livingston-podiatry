@@ -1,6 +1,6 @@
-<?php
+<?php 
 /**
- * Template Name: Quick Links Menu
+ * Template Name: Page With Map
  *
  * @package WordPress
  * @subpackage Livingston Podiatry
@@ -13,13 +13,14 @@ get_header(); ?>
 	<div class="container pt-5">
 	<h1 class="page-title"><?php the_title(); ?></h1>
 		<div class="row">
-				<div class="col-lg-9">
+				<div class="col-lg-12">
 					<?php the_content(); ?>
+
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="<?php echo the_field('geo_map_url', 'option'); ?>"></iframe>
+					</div>
 					
 					<br />
-				</div>
-				<div class="col-lg-3 pt-3 pb-5">
-					<?php echo get_template_part('parts/page', 'quick-links'); ?>
 				</div>
 			</div>
 			<?php the_tags('<span class="badge badge-secondary"><i class="fas fa-tags"></i> Related:</span>  ', ', '); ?>

@@ -29,7 +29,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3">
-				<p>Contact Us</p>
+				<p><a href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></p>
 			</div>
 			<div class="col-md-6">
 				<p class="text-center"><strong>&copy;<?php echo date('Y');?> Livingston Podiatry Associates</strong></p>
