@@ -13,7 +13,7 @@ get_header(); ?>
 	<div class="container pt-5">
 	<h1 class="page-title"><?php the_title(); ?></h1>
 		<div class="row">
-				<div class="col-lg-12">
+				<div class="col-lg-9">
 					<?php the_content(); ?>
 
 					<div class="embed-responsive embed-responsive-16by9">
@@ -21,6 +21,9 @@ get_header(); ?>
 					</div>
 					
 					<br />
+				</div>
+				<div class="col-lg-3">
+					<?php get_template_part('parts/page', 'quick-links'); ?>
 				</div>
 			</div>
 			<?php the_tags('<span class="badge badge-secondary"><i class="fas fa-tags"></i> Related:</span>  ', ', '); ?>
