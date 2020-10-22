@@ -1,4 +1,4 @@
-<footer class="footer pt-4 pb-5">
+<footer class="footer pt-4 pb-3">
 	<div class="container" style="border-top: 3px solid #facd62;">
 		<div class="row pt-3">
 			<div class="col-md-4">
@@ -24,7 +24,8 @@
 				<p class="text-right"><a href="<?php echo get_home_url(); ?>/patient-testimonials">Patient Testimonials</a><br />
 				<a href="<?php echo get_home_url(); ?>/patient-forms">Download Forms</a><br />
 				<a href="<?php echo get_home_url(); ?>/insurance">Insurance We Accept</a><br />
-			    <a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a></p>
+			    <a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a><br />
+				<a href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></p>
 			</div>
 		</div>
 		<div class="row">
@@ -33,7 +34,7 @@
 				<p class="text-center"><strong>&copy;<?php echo date('Y');?> Livingston Podiatry Associates</strong></p>
 			</div>
 			<div class="col-md-3 footer--right">
-				<p><a href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></p>
+				<p></p>
 			</div>
 		</div>
 	</div>
