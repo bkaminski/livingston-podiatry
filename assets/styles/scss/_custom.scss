@@ -1,5 +1,11 @@
 a {
 	outline: none;
+	color: #cb655e;
+	transition: 0.2s ease-in-out;
+	&:hover {
+		color: #e4726a;
+		transition: 0.2s ease-in-out;
+	}
 }
 .important-message {
 	width: 100%;
@@ -119,7 +125,7 @@ a {
 }
 .pg-feat-img {
 	width: 100%;
-	min-height: 155px;
+	min-height: 145px;
 	display: block;
 	background-repeat: no-repeat;
 	background-size: 100%;

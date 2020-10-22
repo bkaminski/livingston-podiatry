@@ -22,7 +22,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="headingOne">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button class="btn btn-link btn-block text-left text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Do you accept my insurance plan?
             </button>
           </h2>
@@ -36,7 +36,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="headingTwo">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               How many years have you been in practice?
             </button>
           </h2>
@@ -50,7 +50,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="headingThree">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               Do you accept credit cards?
             </button>
           </h2>
@@ -64,7 +64,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="headingFour">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
               Do you have payment plans for patients without insurance plans?
             </button>
           </h2>
@@ -78,7 +78,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="headingFive">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
               Where are you located?
             </button>
           </h2>
@@ -92,7 +92,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="headingSix">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
               How long will I have to wait for an appointment?
             </button>
           </h2>
@@ -106,7 +106,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading7">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
               Do you treat sports injuries?
             </button>
           </h2>
@@ -120,7 +120,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading8">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
               Do you accept worker's compensation patients?
             </button>
           </h2>
@@ -134,7 +134,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading9">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
               How much is the initial office visit?
             </button>
           </h2>
@@ -148,7 +148,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading10">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
               Can X-RAYS be taken in the office?
             </button>
           </h2>
@@ -162,7 +162,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading11">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
               Do you treat pediatric foot problems?
             </button>
           </h2>
@@ -176,7 +176,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading12">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
               Are custom orthoses available?
             </button>
           </h2>
@@ -192,7 +192,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading13">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
               Is full payment required at time of visit?
             </button>
           </h2>
@@ -206,7 +206,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading14">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse14" aria-expanded="false" aria-controls="collapse14">
               How do orthotics help correct foot problems?
             </button>
           </h2>
@@ -220,7 +220,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading15">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse15" aria-expanded="false" aria-controls="collapse15">
               How long do orthotics last & will they continue to help me in the future?
             </button>
           </h2>
@@ -234,7 +234,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading16">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse16" aria-expanded="false" aria-controls="collapse16">
               What is an ingrown toenail and what can be done to prevent them?
             </button>
           </h2>
@@ -248,7 +248,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading17">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse17" aria-expanded="false" aria-controls="collapse17">
               Is there a possibility of recurrance after foot surgery?
             </button>
           </h2>
@@ -262,7 +262,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading18">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse18" aria-expanded="false" aria-controls="collapse18">
               How are bunions formed and what can be done to prevent formation?
             </button>
           </h2>
@@ -276,7 +276,7 @@ get_header(); ?>
       <div class="card">
         <div class="card-header" id="heading19">
           <h2 class="mb-0">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
+            <button class="btn btn-link btn-block text-left collapsed text-white font-weight-bold" type="button" data-toggle="collapse" data-target="#collapse19" aria-expanded="false" aria-controls="collapse19">
               Who is responsible for getting referrals?
             </button>
           </h2>

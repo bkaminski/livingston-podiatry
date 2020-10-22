@@ -7,39 +7,38 @@
 		<div class="row">
 			<div class="col-md-3">
 				<ul class="list-unstyled">
-					<li>Achilles Tendinitis</li>
-					<li>Ankle Arthoscopy</li>
-					<li>Ankle Dislocation</li>
-					<li>Ankle Fractures</li>
-					<li>Ankle Sprains</li>
-					<li>Athletes Foot</li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-condidions/achilles-tendinitis">Achilles Tendinitis</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-condidions/ankle-arthroscopy">Ankle Arthroscopy</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/ankle-dislocation">Ankle Dislocation</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/ankle-fractures">Ankle Fractures</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/ankle-sprains">Ankle Sprains</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/athletes-foot">Athletes Foot</a></li>
 				</ul>
 			</div>
 			<div class="col-md-3">
 				<ul class="list-unstyled">
-					<li>Bunion Deformity</li>
-					<li>Custom Made Foot Orthoses</li>
-					<li>Diabetic Foot Care</li>
-					<li>ESWT</li>
-					<li>Flatfoot Deformity</li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/bunion-deformity">Bunion Deformity</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/custom-made-foot-orthoses">Custom Made Foot Orthoses</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/diabetic-foot-care">Diabetic Foot Care</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/eswt">ESWT</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/flatfoot-deformity">Flatfoot Deformity</a></li>
 				</ul>
 			</div>
 			<div class="col-md-3">
 				<ul class="list-unstyled">
-					<li>Forefoot Surgery</li>
-					<li>Hammertoes</li>
-					<li>Heel Pain</li>
-					<li>Ingrown Toenails</li>
-					<li>Laser Therapy for Nail Fungus</li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/forefoot-surgery">Forefoot Surgery</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/hammertoes">Hammertoes</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/heel-pain">Heel Pain</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/ingrown-fungus-nails">Ingrown Fungus Nails</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/laser-therapy-for-nail-fungus">Laser Therapy for Nail Fungus</a></li>
 				</ul>
 			</div>
 			<div class="col-md-3">
 				<ul class="list-unstyled">
-					<li>Neuromas</li>
-					<li>Plantar Fascitis</li>
-					<li>Rearfoot Surgery</li>
-					<li>Warts</li>
-					<li>Virtual Healthcare Provider</li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/neuromas">Neuromas</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/plantar-fasciitis">Plantar Fasciitis</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/rearfoot-surgery">Rearfoot Surgery</a></li>
+					<li><a href="<?php echo get_home_url(); ?>/common-foot-conditions/warts">Warts</a></li>
 				</ul>
 			</div>
 		</div>
