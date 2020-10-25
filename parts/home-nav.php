@@ -8,7 +8,7 @@
 <nav class="navbar sticky-top navbar-expand-md navbar-light shadow" style="min-height:130px;background:#fff;">
 	<figure>
 		<a class="navbar-brand d-block d-md-none" href="<?php echo get_home_url(); ?>">
-	 	<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/09/Livingston_logocolor.jpg' ) . '" class="img-fluid nav--logo" alt="Livingston Podiatry Logo">';?>
+	 	<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/10/livingston-podiatry-associates.webp' ) . '" class="img-fluid nav--logo" alt="Livingston Podiatry Logo">';?>
 	 		
 	 	</a>
 	 </figure>
@@ -52,7 +52,7 @@
 	 		<li class="nav-item d-none d-md-block">
 	 			<figure>
 	 				<a href="<?php echo get_home_url(); ?>">
-	 					<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/09/Livingston_logocolor.jpg' ) . '" class="img-fluid nav--logo ml-3 mr-3" alt="Livingston Podiatry Logo">';?>
+	 					<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/10/livingston-podiatry-associates.webp' ) . '" class="img-fluid nav--logo ml-3 mr-3" alt="Livingston Podiatry Logo">';?>
 	                		
 	                </a>
 	            </figure>

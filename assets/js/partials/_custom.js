@@ -49,11 +49,14 @@
 
 
 
-		//Stop modal video on close
-		$("#videoModal").on('hidden.bs.modal', function (e) {
-    	$("#videoModal iframe").attr("src", $("#videoModal iframe").attr("src"));
-		});
-
+			//Stop Video on Modal Close
+	    	var url = $("#livingstonVideo").attr('src');
+	    	$("#videoModal").on('hide.bs.modal', function(){
+	    		$("#livingstonVideo").attr('src', '');
+	    	});
+	    	$("#videoModal").on('show.bs.modal', function(){
+	    		$("#livingstonVideo").attr('src', url);
+	    	});
 
 	});	//end ready
 })( jQuery );
