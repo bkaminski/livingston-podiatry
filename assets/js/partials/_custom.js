@@ -47,8 +47,6 @@
 			//REMOVE TITLE TAG FROM LINK HOVER
 			$('.nav-link').removeAttr('title');
 
-
-
 			//Stop Video on Modal Close
 	    	var url = $("#livingstonVideo").attr('src');
 	    	$("#videoModal").on('hide.bs.modal', function(){
@@ -56,6 +54,16 @@
 	    	});
 	    	$("#videoModal").on('show.bs.modal', function(){
 	    		$("#livingstonVideo").attr('src', url);
+	    	});
+
+	    	//Lazy Load Bootstrap Carousel Images
+	    	$(function() {
+	    		return $(".carousel.lazy").on("slide", function(ev) {
+	    			var lazy;
+	    			lazy = $(ev.relatedTarget).find("img[data-src]");
+	    			lazy.attr("src", lazy.data('src'));
+	    			lazy.removeAttr("data-src");
+	    		});
 	    	});
 
 	});	//end ready

@@ -16,25 +16,25 @@ get_header(); ?>
 				<div class="col-lg-9">
 					<?php the_content(); ?>
 
-					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div id="carouselExampleControls" class="carousel slide lazy" data-ride="carousel">
 						<div class="carousel-inner">
 							<div class="carousel-item active">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-front.png" class="d-block w-100" alt="Outside view of Livingston Podiatry Associates">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-front.webp" class="d-block w-100" alt="Outside view of Livingston Podiatry Associates">
 							</div>
 							<div class="carousel-item">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-side.png" class="d-block w-100" alt="Outside view of Livingston Podiatry Associates">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-side.webp" class="d-block w-100" alt="Outside view of Livingston Podiatry Associates">
 							</div>
 							<div class="carousel-item">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-office.jpg" class="d-block w-100" alt="View of reception area at Livingston Podiatry Associates">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-office.webp" class="d-block w-100" alt="View of reception area at Livingston Podiatry Associates">
 							</div>
 							<div class="carousel-item">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-inner-room.jpg" class="d-block w-100" alt="Image of exam room at Livingston Podiatry Associates">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-inner-room.webp" class="d-block w-100" alt="Image of exam room at Livingston Podiatry Associates">
 							</div>
 							<div class="carousel-item">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-chair.jpg" class="d-block w-100" alt="Image of exam room at Livingston Podiatry Associates">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-chair.webp" class="d-block w-100" alt="Image of exam room at Livingston Podiatry Associates">
 							</div>
 							<div class="carousel-item">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-patient-room.jpg" class="d-block w-100" alt="Image of exam room at Livingston Podiatry Associates">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/img/livingston-patient-room.webp" class="d-block w-100" alt="Image of exam room at Livingston Podiatry Associates">
 							</div>
 						</div>
 						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
