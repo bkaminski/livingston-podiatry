@@ -48,5 +48,12 @@
 			$('.nav-link').removeAttr('title');
 
 
+
+		//Stop modal video on close
+		$("#videoModal").on('hidden.bs.modal', function (e) {
+    	$("#videoModal iframe").attr("src", $("#videoModal iframe").attr("src"));
+		});
+
+
 	});	//end ready
 })( jQuery );

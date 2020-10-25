@@ -10,14 +10,14 @@
 			</div>
 			<div class="col-md-4 pt-4">
 				<ul class="list-inline foot--social text-center d-none d-lg-block">
-  					<li class="list-inline-item"><i class="fab fa-facebook fa-2x mr-5"></i></li>
-  					<li class="list-inline-item"><i class="fab fa-youtube fa-2x mr-5"></i></li>
-  					<li class="list-inline-item"><i class="fab fa-twitter fa-2x"></i></li>
+  					<li class="list-inline-item"><a href="https://www.facebook.com/pages/Livingston-Podiatry-Associates/335661393214473" target="_blank"><i class="fab fa-facebook fa-2x mr-5"></i></a></li>
+  					<li class="list-inline-item"><a href="https://www.youtube.com/LivingstonPodiatry" target="_blank"><i class="fab fa-youtube fa-2x mr-5"></i></a></li>
+  					<li class="list-inline-item"><a href="https://twitter.com/LivingstonPOD" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
 				</ul>
 				<ul class="list-inline foot--social text-center d-block d-lg-none">
-  					<li class="list-inline-item"><i class="fab fa-facebook fa-2x mr-3"></i></li>
-  					<li class="list-inline-item"><i class="fab fa-youtube fa-2x mr-3"></i></li>
-  					<li class="list-inline-item"><i class="fab fa-twitter fa-2x"></i></li>
+  					<li class="list-inline-item"><a href="https://www.facebook.com/pages/Livingston-Podiatry-Associates/335661393214473" target="_blank"><i class="fab fa-facebook fa-2x mr-3"></i></a></li>
+  					<li class="list-inline-item"><a href="https://www.youtube.com/LivingstonPodiatry" target="_blank"><i class="fab fa-youtube fa-2x mr-3"></i></a></li>
+  					<li class="list-inline-item"><a href="https://twitter.com/LivingstonPOD" target="_blank"><i class="fab fa-twitter fa-2x"></i></a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 footer--right">

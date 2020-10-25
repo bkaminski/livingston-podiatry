@@ -18,8 +18,7 @@
 				<div class="whats-new">
 					<h3 class="text-center pb-5" style="font-size:2.5rem;font-weight:bold;color:#facd62;">What's New?</h3>
 					<p>Dr. Livingston has been named Chairman of the Department of Podiatry at Northwell Health in Syosset.</p>
-					<p><em>Read More...</em></p>
-					<p>Dr. Juno Park D.P.M. has joined our staff.</p>
+					<p><a class="btn btn-blue text-uppercase font-weight-bold">Read More</a></p>
 				</div>
 			</div>
 		</div>
