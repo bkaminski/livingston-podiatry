@@ -7,11 +7,32 @@ a {
 		transition: 0.2s ease-in-out;
 	}
 }
+.common-conditions {
+	padding-top: 0px; 
+	text-shadow: 2px 1px #fff;
+	@include breakpoint (sm) {
+		padding-top: 200px;
+	}
+}
 .important-message {
 	width: 100%;
 	min-height: 50px;
 	background-color: #cb655e;
 	padding-top: 0.6rem;
+}
+.dropdown-menu.columns-3 {
+	min-width: 720px;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
 }
 .home-hero {
 	text-shadow: 1px 1px #fff;

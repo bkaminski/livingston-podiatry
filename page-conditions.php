@@ -10,7 +10,7 @@ get_header(); ?>
 <?php $backgroundImg = wp_get_attachment_image_src(get_post_thumbnail_id(), 'full' );?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	<div class="container-fluid pg-feat-img" style="background-image:url('<?php echo $backgroundImg[0]; ?>');">
-		<h2 class="text-center text-uppercase font-weight-bold display-4" style="padding-top: 200px; text-shadow: 2px 1px #ccc;">Common Conditions</h2><!-- need to make class for this -->
+		<h2 class="text-center text-uppercase font-weight-bold display-4 common-conditions">Common Conditions</h2>
 	</div>
 	<div class="container pt-5">
 	<h1 class="page-title"><?php the_title(); ?></h1>

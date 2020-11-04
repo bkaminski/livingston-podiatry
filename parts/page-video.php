@@ -10,7 +10,7 @@
       </div>
       <div class="modal-body">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe id="livingstonVideo" class="embed-responsive-item pb-3" src="<?php echo get_template_directory_uri(); ?>/assets/img/michael-livingston-podiatry-bellmore-ny.mp4"></iframe>
+          <video id="livingstonVideo" class="embed-responsive-item pb-3" src="<?php echo get_template_directory_uri(); ?>/assets/img/michael-livingston-podiatry-bellmore-ny.mp4" controls></video>
         </div>
       </div>
       <div class="modal-footer">

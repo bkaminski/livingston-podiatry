@@ -25,29 +25,39 @@
 	 		</li>
 	 		<li class="nav-item dropdown">
 	 			<a class="nav-link dropdown-toggle text-uppercase main-nav" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Common Conditions</a>
-	 			<div class="dropdown-menu" aria-labelledby="servicesDropdown">
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions">Common Foot Conditions</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-condidions/achilles-tendinitis">Achilles Tendinitis</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-condidions/ankle-arthroscopy">Ankle Arthroscopy</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/ankle-dislocation">Ankle Dislocation</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/ankle-fractures">Ankle Fractures</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/ankle-sprains">Ankle Sprains</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/athletes-foot">Athletes Foot</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/bunion-deformity">Bunion Deformity</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/custom-made-foot-orthoses">Custom Made Foot Orthoses</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/diabetic-foot-care">Diabetic Foot Care</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/eswt">ESWT</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/flatfoot-deformity">Flatfoot Deformity</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/forefoot-surgery">Forefoot Surgery</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/hammertoes">Hammertoes</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/heel-pain">Heel Pain</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/ingrown-fungus-nails">Ingrown Fungus Nails</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/laser-therapy-for-nail-fungus">Laser Therapy for Nail Fungus</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/neuromas">Neuromas</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/plantar-fasciitis">Plantar Fasciitis</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/rearfoot-surgery">Rearfoot Surgery</a>
-	 				<a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/warts">Warts</a>
-	 			</div>
+	 			<ul class="dropdown-menu multi-column columns-3">
+	 				<div class="row">
+	 					<div class="col-sm-6">
+	 						<ul class="multi-column-dropdown">
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions">Common Foot Conditions</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-condidions/achilles-tendinitis">Achilles Tendinitis</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-condidions/ankle-arthroscopy">Ankle Arthroscopy</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/ankle-dislocation">Ankle Dislocation</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/ankle-fractures">Ankle Fractures</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/ankle-sprains">Ankle Sprains</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/athletes-foot">Athletes Foot</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/bunion-deformity">Bunion Deformity</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/custom-made-foot-orthoses">Custom Made Foot Orthoses</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/diabetic-foot-care">Diabetic Foot Care</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/eswt">ESWT</a></li>
+				 			</ul>
+				 		</div>
+				 		<div class="col-sm-6">
+				 			<ul class="multi-column-dropdown">
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/flatfoot-deformity">Flatfoot Deformity</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/forefoot-surgery">Forefoot Surgery</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/hammertoes">Hammertoes</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/heel-pain">Heel Pain</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/ingrown-fungus-nails">Ingrown Fungus Nails</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/laser-therapy-for-nail-fungus">Laser Therapy for Nail Fungus</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/neuromas">Neuromas</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/plantar-fasciitis">Plantar Fasciitis</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/rearfoot-surgery">Rearfoot Surgery</a></li>
+				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/warts">Warts</a></li>
+				 			</ul>
+				 		</div>
+				 	</div>
+				 </ul>
 	 		</li>
 	 		<li class="nav-item d-none d-md-block">
 	 			<figure>
