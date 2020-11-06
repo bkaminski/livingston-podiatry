@@ -8,10 +8,12 @@ a {
 	}
 }
 .common-conditions {
-	padding-top: 0px; 
+	padding-top: 50px; 
 	text-shadow: 2px 1px #fff;
+	font-size: 2rem;
 	@include breakpoint (sm) {
 		padding-top: 200px;
+		font-size: 3.5rem;
 	}
 }
 .important-message {
@@ -20,13 +22,13 @@ a {
 	background-color: #cb655e;
 	padding-top: 0.6rem;
 }
-.dropdown-menu.columns-3 {
-	min-width: 720px;
+.dropdown-menu.columns-2 {
+	min-width: 620px;
 }
 .multi-column-dropdown {
 	list-style: none;
-  margin: 0px;
-  padding: 0px;
+  	margin: 0px;
+  	padding: 0px;
 }
 @media (max-width: 767px) {
 	.dropdown-menu.multi-column {

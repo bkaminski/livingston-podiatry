@@ -2,9 +2,12 @@
 	<div class="container pt-5 pb-5">
 		<div class="row">
 			<div class="col-md-4">
-				<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/10/dr-michael-livingston.webp' ) . '" class="img-fluid pb-5" alt="Dr. Michael Livingston Podiatry">';?>
+				<figure>
+					<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/11/dr-michael-livingston-podiatrist.webp' ) . '" class="img-fluid pb-5" alt="Dr. Michael Livingston Podiatry">';?>
+				
+				</figure>
 
-				<a data-toggle="modal" data-target="#videoModal" class="btn btn-lg btn-light btn-block pr-5 pl-5 text-uppercase font-weight-bold"><i class="fas fa-video"></i> Watch Video</a>
+				<a data-toggle="modal" data-target="#videoModal" class="btn btn-lg btn-light btn-block pr-5 pl-5 text-uppercase font-weight-bold mb-4"><i class="fas fa-video"></i> Watch Video</a>
 			</div>
 			<div class="col-md-8">
 				<h2 class="text-white font-weight-bold" style="text-shadow: 1px 2px #000;">Why Choose Livingston Podiatry?</h2>

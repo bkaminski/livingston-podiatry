@@ -25,7 +25,7 @@
 	 		</li>
 	 		<li class="nav-item dropdown">
 	 			<a class="nav-link dropdown-toggle text-uppercase main-nav" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Common Conditions</a>
-	 			<ul class="dropdown-menu multi-column columns-3">
+	 			<ul class="dropdown-menu multi-column columns-2">
 	 				<div class="row">
 	 					<div class="col-sm-6">
 	 						<ul class="multi-column-dropdown">
@@ -66,6 +66,7 @@
 	                		
 	                </a>
 	            </figure>
+	            <p class="text-center font-weight-bold" style="margin-bottom:0px;margin-left:-10px;margin-top:-15px;"><a href="tel:516-308-4500">516-308-4500</a></p>
 	        </li>
 	        <li class="nav-item">
 	        	<a class="nav-link text-uppercase main-nav" href="<?php echo get_home_url(); ?>/patient-services">Patient Services</a>
