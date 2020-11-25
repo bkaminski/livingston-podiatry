@@ -34,6 +34,9 @@
 		  if(/our-facility/.test(loc)) {
 		    $('.our--facility').addClass('active');
 		  }
+		  if(/news/.test(loc)) {
+		    $('.news--links').addClass('active');
+		  }
 		});
 
 		//Animate slide up and down nav dropdowns.
