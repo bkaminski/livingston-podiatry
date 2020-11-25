@@ -10,7 +10,7 @@ add_action('wp_enqueue_scripts', 'enqueue_livingston_scripts');
 //LOAD CSS
 function enqueue_livingston_styles() {
     wp_enqueue_style('bootstrap-4.5.2', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css', array(), null);
-    wp_enqueue_style('integral-styles', get_template_directory_uri() . '/assets/styles/siteStyles.min.css');
+    wp_enqueue_style('livingston-styles', get_template_directory_uri() . '/assets/styles/siteStyles.min.css');
 }
 add_action('wp_enqueue_scripts', 'enqueue_livingston_styles');
 

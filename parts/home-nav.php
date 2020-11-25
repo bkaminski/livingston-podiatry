@@ -27,7 +27,7 @@
 	 			<a class="nav-link dropdown-toggle text-uppercase main-nav" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Common Conditions</a>
 	 			<ul class="dropdown-menu multi-column columns-2">
 	 				<div class="row">
-	 					<div class="col-sm-6">
+	 					<div class="col-md-6">
 	 						<ul class="multi-column-dropdown">
 				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions">Common Foot Conditions</a></li>
 				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-condidions/achilles-tendinitis">Achilles Tendinitis</a></li>
@@ -42,7 +42,7 @@
 				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/eswt">ESWT</a></li>
 				 			</ul>
 				 		</div>
-				 		<div class="col-sm-6">
+				 		<div class="col-md-6">
 				 			<ul class="multi-column-dropdown">
 				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/flatfoot-deformity">Flatfoot Deformity</a></li>
 				 				<li><a class="dropdown-item" href="<?php echo get_home_url(); ?>/common-foot-conditions/forefoot-surgery">Forefoot Surgery</a></li>

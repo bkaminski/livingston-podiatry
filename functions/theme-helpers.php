@@ -133,3 +133,15 @@ function webp_is_displayable($result, $path) {
     return $result;
 }
 add_filter('file_is_displayable_image', 'webp_is_displayable', 10, 2);
+
+//REMOVE TWITTER AUTHOR INFO
+function wpf13625975_yoast_remove_username_metatag( $tag_arr ) {
+    
+    if( isset( $tag_arr['Written by'] ) ) {
+        unset( $tag_arr['Written by'] );
+    }
+    
+    return $tag_arr;
+    
+}
+add_filter( 'wpseo_enhanced_slack_data', 'wpf13625975_yoast_remove_username_metatag' );
