@@ -17,8 +17,30 @@
 			<div class="col-md-6">
 				<div class="whats-new">
 					<h3 class="text-center pb-5" style="font-size:2.5rem;font-weight:bold;color:#facd62;">What's New?</h3>
-					<p>Dr. Livingston has been named Chairman of the Department of Podiatry at Northwell Health in Syosset.</p>
-					<p><a class="btn btn-blue text-uppercase font-weight-bold">Read More</a></p>
+					<?php
+					// the query
+					$the_query = new WP_Query( array(
+						'category_name' => 'news',
+						'posts_per_page' => 1,
+					)); ?>
+					<?php if ( $the_query->have_posts() ) : ?>
+					<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+						<div class="row">
+							<div class="col-md-12">
+								<h3><?php the_title(); ?></h3>
+								<small>
+									<u>Posted on: <?php echo get_the_date(); ?></u>
+								
+								</small>
+								<br />
+								<a class="btn btn-blue mt-3" href="<?php the_permalink(); ?>">Read More</a>
+							</div>
+						</div>
+					<?php endwhile; ?>
+					<?php wp_reset_postdata(); ?>
+					<?php else : ?>
+						<p><?php __('No News'); ?></p>
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>

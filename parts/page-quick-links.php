@@ -10,4 +10,5 @@
 	<a href="<?php echo get_home_url(); ?>/patient-testimonials" class="list-group-item list-group-item-action patient--testimonials"><i class="fas fa-angle-double-right fa-fw"></i> Patient Testimonials</a>
 	<a href="<?php echo get_home_url(); ?>/our-facility" class="list-group-item list-group-item-action our--facility"><i class="fas fa-angle-double-right fa-fw"></i> Our Facility</a>
 	<a href="<?php echo get_home_url(); ?>/helpful-links" class="list-group-item list-group-item-action helpful--links"><i class="fas fa-angle-double-right fa-fw"></i> Helpful Links</a>
+	<a href="<?php echo get_home_url(); ?>/news" class="list-group-item list-group-item-action news--links"><i class="fas fa-angle-double-right fa-fw"></i> News</a>
 </div>

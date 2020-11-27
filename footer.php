@@ -5,7 +5,8 @@
 				<p>Livingston Podiatry Associates<br />
 				2307 Bellmore Ave<br />
 				Bellmore, NY 11710<br />
-				516-308-4500</p>
+				516-308-4500<br />
+				<a href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></p>
 
 			</div>
 			<div class="col-md-4 pt-4">
@@ -24,8 +25,9 @@
 				<p class="text-right"><a href="<?php echo get_home_url(); ?>/patient-testimonials">Patient Testimonials</a><br />
 				<a href="<?php echo get_home_url(); ?>/patient-forms">Download Forms</a><br />
 				<a href="<?php echo get_home_url(); ?>/insurance">Insurance We Accept</a><br />
+				<a href="<?php echo get_home_url(); ?>/news">News</a><br />
 			    <a href="<?php echo get_home_url(); ?>/privacy-policy">Privacy Policy</a><br />
-				<a href="<?php echo get_home_url(); ?>/contact-us">Contact Us</a></p>
+				
 			</div>
 		</div>
 		<div class="row">

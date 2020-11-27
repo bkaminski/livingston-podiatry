@@ -7,7 +7,7 @@
 
 		if ($window.width() < 976) {
 			$('.navbar-collapse').removeClass('.justify-content-md-center');
-			$('.nav--logo').width(260);
+			$('.nav--logo').width(240);
 			$('.footer--right').find('p').removeClass('text-right');
 			$('.foot--social').removeClass('text-center');
 			$('.hero--1').addClass('text-center').removeClass('float-left');
