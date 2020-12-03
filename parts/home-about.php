@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-4">
 				<figure>
-					<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/11/dr-michael-livingston-podiatrist.webp' ) . '" class="img-fluid pb-5" alt="Dr. Michael Livingston Podiatry">';?>
+					<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/11/dr-michael-livingston-podiatrist.png' ) . '" class="img-fluid pb-5" alt="Dr. Michael Livingston Podiatry">';?>
 				
 				</figure>
 

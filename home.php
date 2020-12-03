@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<div class="container-fluid pg-feat-img" style="background-image:url('https://www.livingstonpodiatry.com/wp-content/uploads/2020/11/livingston-news-page-cover.png');"></div>
 <div class="container">
 	<div class="row mt-5">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -27,6 +28,10 @@
 		<div class="col-md-3 pt-3 pb-5">
 			<?php echo get_template_part('parts/page', 'quick-links'); ?>
 		</div>
+	</div>
+	<div class="col">
+		<?php echo livingston_pagination(); ?>
+			
 	</div>
 </div>
 <?php get_footer(); ?>

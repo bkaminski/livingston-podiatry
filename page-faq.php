@@ -293,6 +293,10 @@ get_header(); ?>
     <?php echo get_template_part('parts/page', 'quick-links'); ?>
 
   </div>
+  <div class="col mt-5">
+    <?php the_tags('<span class="badge badge-secondary"><i class="fas fa-tags"></i> Related:</span>  ', ', '); ?>
+    
+  </div>
 </div>
 </div>
 <?php get_footer(); ?>

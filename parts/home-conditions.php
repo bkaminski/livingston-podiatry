@@ -2,7 +2,7 @@
 	<div class="container">
 		<h2 class="text-center below-knee font-weight-bold" style="font-size:3rem;">Are You Experiencing <span style="color:#d0e6ff;">Any Of These Conditions?</span></h2>
 		<div class="text-center">
-			<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/10/livingston-podiatry-can-help.webp' ) . '" class="img-fluid" alt="We Can Help!">';?>
+			<?php $uploads = wp_upload_dir(); echo '<img src="' . esc_url( $uploads['baseurl'] . '/2020/10/livingston-podiatry-can-help.png' ) . '" class="img-fluid" alt="We Can Help!">';?>
 		</div>
 		<div class="row">
 			<div class="col-md-3">

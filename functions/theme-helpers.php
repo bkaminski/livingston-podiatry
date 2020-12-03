@@ -79,17 +79,14 @@ add_filter('the_excerpt', 'excerpt_read_more_link');
 add_filter( 'feed_links_show_comments_feed', '__return_false' );
 
 //REMOVE WP VERSION FROM CODE
-function intSound_remove_version() {
+function livingston_remove_version() {
 return '';
 }
-add_filter('the_generator', 'intSound_remove_version');
+add_filter('the_generator', 'livingston_remove_version');
 //REMOVE YOAST SEO COMMENTS
-if (defined('WPSEO_VERSION')) {
- add_action('wp_head',function() { ob_start(function($o) {
- return preg_replace('/^\n?<!--.*?[Y]oast.*?-->\n?$/mi','',$o);
- }); },~PHP_INT_MAX);
-}
+add_filter( 'wpseo_debug_markers', '__return_false' );
 
+//ACF OPTIONS PAGE
 if( function_exists('acf_add_options_page') ) {
     
     acf_add_options_page(array(
