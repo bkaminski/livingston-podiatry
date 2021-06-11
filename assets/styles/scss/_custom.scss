@@ -91,13 +91,13 @@ a {
 	min-height: 200px;
 	background: #b0b0b0;
 	@include breakpoint (sm) {
-		background-image: url('../../../../uploads/2020/10/ankle.png');
+		background-image: url('../../../../uploads/2020/12/ankle.png');
 		background-repeat: no-repeat;
 		background-position: right;
 		background-size: 50%;
 	}
 	@include breakpoint (md) {
-		background-image: url('../../../../uploads/2020/10/ankle.png');
+		background-image: url('../../../../uploads/2020/12/ankle.png');
 		background-repeat: no-repeat;
 		background-position: right;
 		background-size: contain;
@@ -107,7 +107,7 @@ a {
 	width: 100%;
 	min-height: 200px;
 	background: #d0e6ff;
-	background-image: url('../../../../uploads/2020/10/bi-color-bg.png');
+	background-image: url('../../../../uploads/2020/12/bi-color-bg.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
